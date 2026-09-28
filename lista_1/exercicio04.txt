@@ -1,0 +1,12 @@
+x = 10 # Variável 1
+
+def alterar_valor():
+x = 5 # Variável 2
+print(f"Valor dentro da função: {x}")
+
+alterar_valor()
+print(f"Valor fora da função: {x}")
+
+A) 5 e 10.
+
+B) A primeira váriavel retornará o número 5 pois ela é uma váraiavel LOCAL. A segunda váriavel retornará o número 10 pois é uma váriavel GLOBAL. A váraiavel LOCAL só é retornada enquanto a função estiver rodando.
